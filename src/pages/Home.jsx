@@ -12,18 +12,24 @@ function Home() {
           transition={{ duration: 0.6, ease: 'easeOut' }}
           className="max-w-2xl mx-auto text-center mb-10 sm:mb-12 md:mb-14"
         >
-          <p className="inline-flex items-center gap-2 rounded-full bg-white/70 px-3 py-1 text-xs font-medium text-sky-700 shadow-sm border border-slate-100 mb-3">
-            <span className="h-1.5 w-1.5 rounded-full bg-sky-500" />
-            Collaborative • Passionate • Reliable
-          </p>
+          <div className="relative inline-flex items-center gap-2.5 rounded-full bg-white px-4 py-1.5 text-xs sm:text-sm font-semibold shadow-[0_8px_20px_-6px_rgba(14,165,233,0.25)] border border-sky-100 mb-6 overflow-hidden group hover:-translate-y-0.5 transition-all duration-300">
+            <div className="absolute inset-0 bg-gradient-to-r from-sky-50 to-violet-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-gradient-to-r from-sky-500 to-violet-500"></span>
+            </span>
+            <span className="relative text-transparent bg-clip-text bg-gradient-to-r from-sky-800 via-violet-800 to-sky-800">
+              Kolaboratif <span className="text-sky-300 mx-1.5 font-normal">•</span> Penuh Semangat <span className="text-sky-300 mx-1.5 font-normal">•</span> Dapat Diandalkan
+            </span>
+          </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-slate-900 mb-3">
-            Our Team
+            Tim Kami
           </h1>
           <p className="text-base sm:text-lg text-slate-600 mb-2">
-            Meet the amazing people behind NusaLingua BizChat AI.
+            Kenali orang-orang hebat di balik NusaLingua.
           </p>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-3xl mx-auto">
-            NusaLingua BizChat AI is a real-time communication bridge between Indonesian MSMEs and global buyers. MSMEs simply type in Indonesian — the AI ​​automatically translates, adapts to the business tone, and sends replies in the buyer's language. Buyers from Saudi Arabia, China, Japan, and the United States can be served simultaneously from a single dashboard.
+            NusaLingua adalah jembatan komunikasi real-time antara UMKM Indonesia dan pembeli global. UMKM cukup mengetik dalam bahasa Indonesia — AI secara otomatis menerjemahkan, menyesuaikan dengan nada bisnis, dan mengirimkan balasan dalam bahasa pembeli. Pembeli dari Arab Saudi, Tiongkok, Jepang, dan Amerika Serikat dapat dilayani secara bersamaan dari satu dasbor.
           </p>
         </motion.div>
 
