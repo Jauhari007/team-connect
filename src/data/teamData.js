@@ -1,8 +1,8 @@
 export const teamMembers = [
   {
     id: 1,
-    name: 'Alya Putri',
-    role: 'Product Manager',
+    name: 'Alvin Rama Saputra',
+    role: 'Team Leader',
     bio: 'Menghubungkan visi produk dengan kebutuhan pengguna setiap hari.',
     photo:
       'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=300',
@@ -13,8 +13,8 @@ export const teamMembers = [
   },
   {
     id: 2,
-    name: 'Rizky Ramadan',
-    role: 'Frontend Engineer',
+    name: 'Wahyu Setiawann',
+    role: 'Fullstack Engineer',
     bio: 'Membangun antarmuka cepat dan responsif dengan pengalaman yang mulus.',
     photo:
       'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=300',
@@ -25,8 +25,8 @@ export const teamMembers = [
   },
   {
     id: 3,
-    name: 'Nadine Salsabila',
-    role: 'UI/UX Designer',
+    name: 'Muhammad Ikhlasul Amal Akbar',
+    role: 'FrontEnd Engineer & AI Engineer',
     bio: 'Merancang pengalaman yang intuitif dan visual yang konsisten.',
     photo:
       'https://images.pexels.com/photos/3760852/pexels-photo-3760852.jpeg?auto=compress&cs=tinysrgb&w=300',
@@ -37,8 +37,8 @@ export const teamMembers = [
   },
   {
     id: 4,
-    name: 'Dimas Pratama',
-    role: 'Backend Engineer',
+    name: 'Jauhari Achmad Pradana',
+    role: 'Bussiness Analyst',
     bio: 'Menjaga sistem tetap aman, skalabel, dan dapat diandalkan.',
     photo:
       'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300',

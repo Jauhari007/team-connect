@@ -19,8 +19,14 @@ function Home() {
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-slate-900 mb-3">
             Our Team
           </h1>
-          <p className="text-base sm:text-lg text-slate-600">
-            Meet the amazing people behind this project
+          <p className="text-base sm:text-lg text-slate-600 mb-2">
+            Meet the amazing people behind NusaLingua BizChat AI.
+          </p>
+          <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-3xl mx-auto">
+            NusaLingua BizChat AI adalah jembatan komunikasi real-time antara UMKM Indonesia dan buyer global. UMKM
+            cukup mengetik dalam Bahasa Indonesia — AI otomatis menerjemahkan, menyesuaikan tone bisnis, dan mengirim
+            balasan dalam bahasa buyer. Buyer dari Saudi Arabia, China, Jepang, dan Amerika bisa dilayani sekaligus
+            dari satu dashboard.
           </p>
         </motion.div>
 
