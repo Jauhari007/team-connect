@@ -23,10 +23,7 @@ function Home() {
             Meet the amazing people behind NusaLingua BizChat AI.
           </p>
           <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-3xl mx-auto">
-            NusaLingua BizChat AI adalah jembatan komunikasi real-time antara UMKM Indonesia dan buyer global. UMKM
-            cukup mengetik dalam Bahasa Indonesia — AI otomatis menerjemahkan, menyesuaikan tone bisnis, dan mengirim
-            balasan dalam bahasa buyer. Buyer dari Saudi Arabia, China, Jepang, dan Amerika bisa dilayani sekaligus
-            dari satu dashboard.
+            NusaLingua BizChat AI is a real-time communication bridge between Indonesian MSMEs and global buyers. MSMEs simply type in Indonesian — the AI ​​automatically translates, adapts to the business tone, and sends replies in the buyer's language. Buyers from Saudi Arabia, China, Japan, and the United States can be served simultaneously from a single dashboard.
           </p>
         </motion.div>
 
