@@ -1,11 +1,14 @@
+import fotoAlvin from '../assets/avatars/foto_alvin.jpeg';
+import fotoAmal from '../assets/avatars/foto_amal.png';
+import fotoAri from '../assets/avatars/foto_ari.png';
+
 export const teamMembers = [
   {
     id: 1,
     name: 'Alvin Rama Saputra',
     role: 'Team Leader',
     bio: 'Menghubungkan visi produk dengan kebutuhan pengguna setiap hari.',
-    photo:
-      'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=300',
+    photo: fotoAlvin,
     portfolio: 'https://example.com/alya',
     linkedin: 'https://linkedin.com/in/example-alya',
     github: 'https://github.com/example-alya',
@@ -28,8 +31,7 @@ export const teamMembers = [
     name: 'Muhammad Ikhlasul Amal Akbar',
     role: 'FrontEnd Engineer & AI Engineer',
     bio: 'Merancang pengalaman yang intuitif dan visual yang konsisten.',
-    photo:
-      'https://images.pexels.com/photos/3760852/pexels-photo-3760852.jpeg?auto=compress&cs=tinysrgb&w=300',
+    photo: fotoAmal,
     portfolio: 'https://example.com/nadine',
     linkedin: 'https://linkedin.com/in/example-nadine',
     github: 'https://github.com/example-nadine',
@@ -40,11 +42,10 @@ export const teamMembers = [
     name: 'Jauhari Achmad Pradana',
     role: 'Bussiness Analyst',
     bio: 'Menjaga sistem tetap aman, skalabel, dan dapat diandalkan.',
-    photo:
-      'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300',
-    portfolio: 'https://example.com/dimas',
-    linkedin: 'https://linkedin.com/in/example-dimas',
-    github: 'https://github.com/example-dimas',
-    instagram: 'https://instagram.com/example.dimas',
+    photo: fotoAri,
+    portfolio: 'https://ariyoidev.groupsixcrypto.com/',
+    linkedin: 'https://www.linkedin.com/in/jauhari-achmad-pradana/',
+    github: 'https://github.com/Jauhari007',
+    instagram: 'https://www.instagram.com/_arii70/',
   },
 ];
